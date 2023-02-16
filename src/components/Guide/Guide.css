@@ -1,0 +1,45 @@
+.guide-container{
+    max-width: 350px;
+}
+.guide-switch{
+    border: none;
+    background: transparent;
+    padding: 0;
+    }
+.guide-modal{
+    background-color: #ffffffb7;
+    padding: 1rem;
+    border-radius: 8px;
+    
+}
+
+.guide-header{
+    display: flex;
+    justify-content: space-between;
+}
+
+.guide-close{
+    border: none;
+    background-color: transparent;
+}
+
+.guide-is-hidden{
+    display: none;
+}
+.guide-heading{
+    margin: .5rem 0;
+}
+.guide-text{
+    line-height: 1.2rem;
+}
+
+@media screen and (min-width : 900px) {
+    .guide-switch{
+       display: none;
+        
+        }
+    .guide-modal, .guide-is-hidden{
+        display: block;
+    }
+
+}

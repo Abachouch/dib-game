@@ -1,0 +1,20 @@
+.app-header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 1rem;
+}
+.lang-list{
+    display: flex;
+    flex-direction: row;
+    column-gap: .5rem;
+}
+.lang{
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+    color: var(--font-color);
+}
+.lang.active{
+    font-weight: 700;
+}
