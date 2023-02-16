@@ -2,12 +2,24 @@
   "name": "dib-game",
   "version": "0.1.0",
   "private": true,
+  "description": "a traditional Moroccan word game, where you have to loop between three words in a particular order.",
+  "author": {
+    "email": "youssouf.abachouch@gmail.com",
+    "name": "Abachouch youssouf",
+    "url": "https://abachouch.github.io/"
+  },
+  "repository": {
+    "url": "https://github.com/Abachouch/dib-game.git"
+  },
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.5",
     "@testing-library/react": "^13.4.0",
     "@testing-library/user-event": "^13.5.0",
+    "i18next": "^22.4.9",
+    "i18next-browser-languagedetector": "^7.0.1",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
+    "react-i18next": "^12.1.5",
     "react-scripts": "5.0.1",
     "web-vitals": "^2.1.4"
   },
