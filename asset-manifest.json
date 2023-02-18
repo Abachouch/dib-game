@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/dib-game/static/css/main.cee701c6.css",
+    "main.js": "/dib-game/static/js/main.6674a992.js",
+    "static/js/787.27a2655a.chunk.js": "/dib-game/static/js/787.27a2655a.chunk.js",
+    "static/media/forest.jpg": "/dib-game/static/media/forest.f02e99a2d75381e77f1a.jpg",
+    "static/media/hero.png": "/dib-game/static/media/hero.22d92e330ed9c8851567.png",
+    "index.html": "/dib-game/index.html",
+    "main.cee701c6.css.map": "/dib-game/static/css/main.cee701c6.css.map",
+    "main.6674a992.js.map": "/dib-game/static/js/main.6674a992.js.map",
+    "787.27a2655a.chunk.js.map": "/dib-game/static/js/787.27a2655a.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.cee701c6.css",
+    "static/js/main.6674a992.js"
+  ]
+}
