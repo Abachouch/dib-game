@@ -1,0 +1,25 @@
+{
+    "translation": {
+        "score": "Score",
+        "lost": {
+            "youLost": "You Lost",
+            "playAgain": "Play Again",
+            "yourScore": "Your Score"
+        },
+        "home": {
+            "playNow": "Play Now"
+        },
+        "game": {
+            "cheftiDib": "did you saw the wolf",
+            "chefto": "i saw it",
+            "cheftiKe3lalto": "did you saw his tail"
+        },
+        "guide": {
+            "switch": "How to play ?",
+            "heading": "Guid",
+            "introduction" : "the wolf game is a traditional Moroccan game, where players take turns saying one of three specific words in a particular order: “did you see the wolf”  “I see it” and “did you see his tail” ." ,
+            "objective" : "The game's objective is to continue saying on a loop these three words in the correct order without making a mistake or hesitating.",
+            "example" : "For example: if the game says: “Did you see the wolf” you have to click “I saw it”. or if the game says: “Did you saw his tail” you should click “did you saw the wolf”"
+        }
+    }
+}

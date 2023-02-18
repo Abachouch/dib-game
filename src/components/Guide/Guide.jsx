@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { useTranslation, Trans } from "react-i18next";
+import { useTranslation } from "react-i18next";
 import './Guide.css'
 function Guide() {
 
@@ -17,7 +17,7 @@ function Guide() {
             <div className={`guide-modal ${isHidden ? "guide-is-hidden" : ""}`}>
                 <header className="guide-header" >
                     <h2 className="guide-heading" >{t("guide.heading")}</h2>
-                    <button className="guide-close" type="submit" onClick={()=> {
+                    <button className="guide-close" type="submit" onClick={() => {
                         setIsHidden(true)
                     }} >
                         <svg width="14" height="14" viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -30,21 +30,16 @@ function Guide() {
                 </header>
                 <div className="guide-text">
 
-                    <Trans i18nKey="guide.body" >
-                        <p>
-                            In dib game, players take turns with the Ai saying one of three specific words in a particular order: "cheti dib," "chefto," and "cheti ke3lalto."
-                        </p>
-                        <p>
-                            The objective of the game is to continue the loop of these three words in the correct order without making a mistake or hesitating.
-                        </p>
-                        <p>
-                            For Example : if the Ai says : “chefti dib” you should click “chefto” .
-                        </p>
-                        <p>
-                            or if the Ai says : “cheti ke3lalto” then you click “chefti dib”. and so on.
-                        </p>
-                    </Trans>
+                    <p>
+                        {t('guide.introduction')}
+                    </p>
+                    <p>
+                        {t('guide.objective')}
+                    </p>
 
+                    <p>
+                        {t('guide.example')}
+                    </p>
                 </div>
             </div>
 

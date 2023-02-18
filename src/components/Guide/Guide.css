@@ -41,5 +41,8 @@
     .guide-modal, .guide-is-hidden{
         display: block;
     }
+    .guide-close{
+       display: none;
+    }
 
 }

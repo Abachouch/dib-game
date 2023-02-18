@@ -14,13 +14,17 @@ gap: 1rem;
 }
 footer{
     color: var(--font-color-alt);
-    font-family: monospace;
-    font-size: 1rem;
+    font-family: "consolas" , monospace;
+
     text-align: right;
     padding: 1rem;
 }
 footer p {
     margin: 0;
+    font-size: .8rem;
+}
+footer a {
+    color: var(--font-color-alt);
 }
 
 @media screen and (min-width : 900px) {

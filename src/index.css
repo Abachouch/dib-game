@@ -2,6 +2,11 @@
   box-sizing: border-box;
 }
 
+html[lang="ar"]{
+  direction: rtl;
+}
+
+
 body{
   --font-color :  #393939 ;
   --font-color-alt : white ;

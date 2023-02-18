@@ -1,22 +1,38 @@
-.home-container{
+.home-container {
     margin: auto;
     width: 100%;
     max-width: 300px;
 }
-.home{
+.home ,  .game , .lost{
     display: none;
 }
-.home-title{
+
+.is-home .home {
+    display: block;
+}
+
+.is-game .game {
+    display: block;
+}
+
+.is-lost .lost {
+    display: block;
+}
+
+
+.home-title {
     text-align: center;
     font-stretch: 3rem;
 }
-.home-spirit{
+
+.home-spirit {
     display: block;
     width: 100%;
     max-width: 300px;
     margin: 0 auto;
 }
-.home-play{
+
+.home-play {
     padding: .8rem 2rem;
     font-size: 1.2rem;
     border-radius: 2rem;
@@ -27,37 +43,38 @@
     box-shadow: 0 0 8px black;
 }
 
-.question{
+.question {
     font-size: 3rem;
     text-align: center;
     color: var(--font-color-alt);
 }
 
-.progress-wraper{
-background-color: white;
-width: 100%;
-margin: 2rem 0;
-border-radius: 4px;
-overflow: hidden;
+.progress-wraper {
+    background-color: white;
+    width: 100%;
+    margin: 2rem 0;
+    border-radius: 4px;
+    overflow: hidden;
 }
 
-.progress{
+
+.progress {
     height: 4px;
-    width: 50px;
+    
     overflow: hidden;
     background-color: var(--color-accent);
 }
 
-.answers{
+.answers {
     display: flex;
     flex-direction: column;
     align-items: center;
     row-gap: 1rem;
 }
 
-.answer{
+.answer {
     border: none;
-    padding: 1rem ;
+    padding: 1rem;
     border-radius: 30px;
     color: var(--color-accent);
     font-size: 1.3rem;
@@ -65,4 +82,35 @@ overflow: hidden;
     box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
     height: 65px;
     width: 250px;
+}
+
+.order-1{
+    order: 1;
+}
+.order-2{
+    order: 2;
+}
+.order-3{
+    order: 3;
+}
+.lost{
+    text-align: center;
+}
+.lost h3{
+    font-size: 1.8rem;
+}
+.lost p {
+    color: var(--color-accent);
+    font-size: 1.8rem;
+    font-weight: 700;
+    text-shadow: 2px 2px 4px #494949;
+}
+.lost button{
+      border: none;
+    padding: 1rem;
+    border-radius: 30px;
+    color: var(--color-accent);
+    font-size: 1.3rem;
+    font-weight: 500;
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
 }
